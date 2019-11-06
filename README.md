@@ -1,4 +1,4 @@
-# FCM notification channel for Laravel 5.3
+# Icemix FCM notification channel for Laravel 5.3
 
 This package makes it easy to send notifications using [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) (FCM) with Laravel 5.3.
 This package is based on [brozot/laravel-fcm](https://github.com/brozot/Laravel-FCM), so please read that documentation for more information.
@@ -20,7 +20,7 @@ This package is based on [brozot/laravel-fcm](https://github.com/brozot/Laravel-
 You can install this package via composer:
 
 ``` bash
-composer require enniel/laravel-fcm-notification-channel:1.*
+composer require icemix/laravel-fcm-notification-channel:1.0
 ```
 Register the provider directly in your app configuration file `config/app.php`:
 ``` php
@@ -123,7 +123,7 @@ $ composer test
 
 ## Credits
 
-- [Evgeni Razumov](https://github.com/enniel)
+- [Etta Egbe Joseph](https://github.com/ettaegbe)
 - [All Contributors](../../contributors)
 
 ## Support
